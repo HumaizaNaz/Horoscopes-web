@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astrology Horoscope</title>
+
+    <style>
+        body {
+            margin: 0;
+
+            padding: 0;
+
+            height: 100vh;
+
+            display: flex;
+
+            flex-direction: column;
+
+            justify-content: center;
+
+            align-items: center;
+
+            overflow: hidden;
+
+            background-image: url('bg-2.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        #img {
+            position: relative;
+
+            animation: nm 10s infinite;
+        }
+
+        @keyframes nm {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .txt {
+            font-size: 40px;
+
+            font-family: 'Arial Rounded MT', sans-serif;
+
+            color: white;
+
+            animation: color 1s infinite;
+
+            text-align: center;
+
+            margin-bottom: 30px;
+
+        }
+
+        @keyframes color {
+            0% {
+                color: #240b36;
+
+            }
+
+            25% {
+                color: #3b4371;
+
+            }
+
+            50% {
+                color: #ff6a00;
+
+            }
+
+            75% {
+                color: #ee0979;
+
+            }
+
+            100% {
+                color: #ffffff;
+
+            }
+        }
+
+        h1 {
+            animation: color 5s infinite;
+
+        }
+
+        img {
+            width: 400px;
+
+            height: auto;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="txt">Astrology Horoscope</h1>
+    <div id="img">
+        <a href="horoscope.html">
+            <img src="hs.png" alt="Horoscope Image">
+        </a>
+    </div>
+</body>
+
+</html>

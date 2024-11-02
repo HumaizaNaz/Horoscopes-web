@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-image: url('bg-2.jpg');
+  background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+#container {
+  height: auto;
+  max-height: 700px;
+  font-size: 14px;
+  font-family: "Arial Rounded MT", sans-serif;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  color: #333;
+  margin: auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+}
+
+#header {
+  margin-bottom: 20px;
+  height: 60px;
+  line-height: 60px;
+  font-family: "Arial Rounded MT", sans-serif;
+  text-transform: uppercase;
+  color: #2c2c2c;
+  text-align: center;
+
+  font-size: 22px;
+}
+
+.textheader {
+  width: 50%;
+}
+
+#selectionarea {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+  padding: 2px;
+  border-radius: 10px;
+ 
+}
+
+#txt {
+    padding: 5px;
+    font-size: 22px;
+    font-family: "Arial Rounded MT", sans-serif;
+    text-transform: uppercase;
+    color: #f3f0f0; 
+    line-height: 1.4;
+  }
+
+#selectarea {
+    padding-left: 20px;
+    font-weight: bold;
+    color: #ff8c00;
+    font-size: 14px;
+  }
+
+#horoscope {
+  height: 30px;
+  padding-right: 8px;
+  border: none;
+  border-radius: 8px;
+  color: rgb(0, 0, 0);
+  background: 
+  linear-gradient(to right,#c693ea, #eda36d, #e696bd, #8594e9);
+  font-size: 14px;
+  font-family: "Arial Rounded MT", sans-serif;
+  text-transform: uppercase;
+  padding: 2px;
+  font-weight: bold;
+}
+
+
+#horoscopetxt {
+  overflow: hidden;
+  resize: none;
+}
+#textrow1 {
+  font-size: 22px;
+  font-family: "Arial Rounded MT", sans-serif;
+  color: #e3e1e1;
+
+}
+#textrow2 {
+    padding-top: 15px;
+    margin-top: 2px;
+    font-size: 15px;
+    font-family: "Arial Rounded MT", sans-serif;
+    overflow: hidden;
+    color: white;
+    resize: none;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #240b36, #ff6a00, #ee0979, #3b4371);
+  }
+
+
+#img_horo {
+  margin-right: 200px;
+  height: 65px;
+  width: 34px;
+  transform: translate(1800%, 250%);
+}
+#horoscope:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+                0 17px 50px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  #restartbtn {
+    float: right;
+    font-size: 14px; 
+    font-family: "Arial Rounded MT", sans-serif;
+    text-transform: uppercase;
+    color: rgb(5, 5, 5);
+    background: 
+    linear-gradient(to right,#c693ea, #eda36d, #e696bd, #8594e9);
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px; 
+  }
+  
+  #restartbtn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 
+                0 17px 50px 0 rgba(0, 0, 0, 1);
+  }
+
+  .txtheader {
+    animation: color 1s infinite;
+  }
+  h1 {
+    animation: color 5s infinite; 
+}
+
+  @keyframes color {
+    0% {
+        color: #240b36; 
+    }
+    25% {
+        color: #3b4371;
+    }
+    50% {
+        color: #ff6a00; 
+    }
+    75% {
+        color: #ee0979;
+    }
+    100% {
+        color: #ffffff;
+    }
+}
+
+  
+  select {
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333; 
+  }
